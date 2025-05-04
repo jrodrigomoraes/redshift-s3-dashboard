@@ -1,6 +1,6 @@
 # Projeto: Data Warehouse na AWS com Redshift e Looker Studio
 
-Este projeto demonstra uma arquitetura básica de Data Warehouse na AWS utilizando o Amazon Redshift para ingestão e consulta de dados armazenados no Amazon S3. O objetivo é permitir a análise ad hoc de dados através de dashboards no Looker Studio (antigo Google Data Studio).
+Este projeto demonstra uma arquitetura de Data Warehouse na AWS utilizando o Amazon Redshift para ingestão e consulta de dados armazenados no Amazon S3. O objetivo é permitir a análise ad hoc de dados através de dashboards no Looker Studio (antigo Google Data Studio).
 
 ---
 
