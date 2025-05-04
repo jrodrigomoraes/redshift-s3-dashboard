@@ -44,7 +44,9 @@ O projeto consiste em:
 ---
 
 ### 2. Criação do Cluster Redshift
-- Tipo: dc2.large (ou outro gratuito, se disponível)
+- Tipo: dc2.large
+ - ⚠️ Este tipo será descontinuado em abril de 2026
+   - Recomenda-se usar RA3 ou Redshift Serverless
 - Criação de banco de dados e tabelas
 
 ![Redshift](imgs/redshift-cluster.png)
