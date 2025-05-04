@@ -29,6 +29,10 @@ Segue o modelo de dados:
 ![Script](imgs/ModeloDados.jpg)
 ---
 
+## 🧭 Arquitetura Geral do Projeto
+- Imagem do esquema geral.
+![Visão](imgs/Esquema.png)
+
 ## 🗂️ Estrutura de Pastas
 
 - `sql/`: Scripts SQL para criação e carga de tabelas.
@@ -88,7 +92,28 @@ Script para desnormalizar as tabelas e tornar consultas com queries menos comple
 
 ---
 
-### 5. Conectando ao Looker
+### 6. Conectando ao Looker
 - Faça o login no Looker
-- Connect os dados com o Amazon RedShift
-- Uma vez os dados carregados, podemos criar análises, visualizações Ad Hoc de forma rápida, fácil e interativa. 
+- Conecte os dados com o Amazon RedShift
+- Uma vez os dados carregados, podemos criar análises, visualizações Ad Hoc de forma rápida, fácil e interativa.
+
+---
+
+### 7. Reprodução
+
+- Faça upload de arquivos CSV na pasta datasets/ para um bucket S3 em sua conta AWS.
+- Crie um cluster Redshift e configure as permissões via IAM.
+- Execute os scripts SQL da pasta sql/ para criar e popular as tabelas.
+- Utilize os comandos de desnormalização para facilitar análises.
+- Conecte o Redshift ao Looker Studio e crie seu dashboard.
+
+---
+
+### 8. Conclusão
+- Prática com Data Warehouse em nuvem
+- Integração de S3 com Redshift usando copy, mandando as análises em um mesmo ambiente
+- Criação de tabelas desnormalizadas para agilizar consultas e análises
+- Conexão com ferramentas de BI (Poderiámos ter usado outras ferramentas também)
+
+
+
